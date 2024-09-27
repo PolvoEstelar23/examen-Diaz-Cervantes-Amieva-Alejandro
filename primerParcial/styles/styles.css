@@ -1,0 +1,315 @@
+
+
+.tittle{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+h1{
+    text-align: center;
+    Font-size: 24px;
+    Font-weight: 600;
+    line-height: 1.2;
+    color: black;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    font-family: 'Marketing Script', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0d6410;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.location {
+    width: 40%;
+    text-align: center;
+}
+
+.location-button {
+    background-color: transparent;
+    border: 2px solid #006400;
+    color: #006400;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.location-button:hover {
+    background-color: #1b401b;
+    color: white;
+}
+
+.tgm-image {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.michelin-image {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.contact-bot {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.press {
+    background-color: #0d6410;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: auto;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
+
+.press:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.press span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* .contact-bot{
+    color: #17ab1c ;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f3e5;
+    border-color: #17ab1c;
+    border-width: 2px;
+    margin: 0 100px;
+} */
+
+.contact-bot:hover {
+    background-color: #555;
+}
+
+.location-info {
+    padding: 20px;
+}
+
+.prf-abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bot-section{
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bot-section p{
+    line-height: 2;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+.bot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    padding: 4rem;
+}
+
+body{
+    background-color: #f3f3e5;
+}
+
+/* imagenes */
+.imagenes{
+    text-align: center;
+}
+
+.imagentt{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imagen1{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pares-container img {
+    width: 38%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+.imagenesAbajo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagenesAbajo img{
+    width: 25%;
+    margin: 5px;
+}
+
+/* textos */
+.texto1{
+    text-align: left center;
+}
+
+.texto2{
+    text-align: right center;
+}
+
+.textCont{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-direction: column;
+}
+
+.textCenter{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.letraCursiva {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.textDownVideo{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* cosas del main */
+.main-shadow{
+    box-shadow: 0px 5px 15px 15px rgba(112, 112, 112, .40);
+    background-color: #f3f3e5;
+    width: min(60rem, 100%);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 2rem auto;
+}
+
+.main-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container{
+    max-width: 120rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto center;
+    margin-right: auto center;
+}
+
+/* video */
+
+.video {
+    width: 100%;
+    height: calc(85vh - 120px);
+    max-width: 1440px;
+    margin: 0 auto;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* iconos */
+.iconos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textillo{
+    padding-top: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
